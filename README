@@ -1,0 +1,26 @@
+OOP PROJECT
+RESTAURANT MANAGEMENT SYSTEM
+
+CCE SECTION B
+THIRD SEMESTER
+
+Made by :
+Shivam Soni- 57
+Siddhant Jain – 50
+Harshit Saxena- 30
+Roshan Chembakasseril- 31
+Achintiya Khullar - 56
+
+This project report is on a restaurant management system made using swings. It can take up to 4 different meals as input, 
+the 4 meals being chicken burger, chicken burger meal, cheese burger and two kinds of milkshakes (Oreo and strawberry). 
+The user can select one or more of these items and can specify the quantity he/she requires. The user also has an option of adding 
+tax (18%) to the sum total of the items to be purchased. If the user selects home delivery, additional charges will be added to the
+sum total. Finally the user can do any one of three things- reset the system, calculate the final amount or exit the system. 
+On clicking the total button, six labels show up (tax, subtotal, total, cost of drinks, cost of meal, and cost of delivery) with 
+their respective values in the adjacent text field.
+
+OOP Concepts Involved:
+Inheritance
+Packages
+Exception Handling
+Swings
