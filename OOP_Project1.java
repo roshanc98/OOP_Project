@@ -16,31 +16,38 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Restaraunt {
-
+public class Restaraunt 
+{
 	private JFrame frame;
 	private JTextField chickenburgertext;
 	private JTextField chickenburgermealtext;
 	private JTextField cheeseburgertext;
 	private JTextField Milkshaketext;
 
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
+	public static void main(String[] args) 
+	{
+		EventQueue.invokeLater(new Runnable()) 
+		{
+			public void run() 
+			{
+				try 
+				{
 					Restaraunt window = new Restaraunt();
 					window.frame.setVisible(true);
-				} catch (Exception e) {
+				}catch (Exception e) 
+				{
 					e.printStackTrace();
 				}
 			}
-		});
+		}
 	}
 
-	public Restaraunt() {
+	public Restaraunt() 
+	{
 		initialize();
 	}
-	private void initialize() {
+	private void initialize() 
+	{
 		frame = new JFrame();
 		frame.setBounds(0, 0, 1366, 768);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -223,3 +230,4 @@ public class Restaraunt {
 		
 		JLabel lblMadeBy = new JLabel("Made by");
 		lblMadeBy.setFont(new Font("Microsoft YaHei UI", Font.PLAIN, 36));
+	}
